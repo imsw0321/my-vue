@@ -2,7 +2,7 @@
   "name": "my-vue",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://{imsw0321}.github.io/{my-vue}",
+   
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -42,6 +42,7 @@
     },
     "rules": {}
   },
+  "homepage": "https://imsw0321.github.io/my-vue",
   "browserslist": [
     "> 1%",
     "last 2 versions",
