@@ -2,7 +2,7 @@
 <div className="Maincontent_SelfIntro">
             <div className="Intro_box_self">
                 <p>
-                    <img />
+                    <img class="mation" src="@/assets/mation.png"  />
                     기본정보
                 </p>
                 <hr />
@@ -15,7 +15,7 @@
 
             <div className="Intro_box_self">
                 <p>
-                    <img />
+                    <img class="mation" src="@/assets/school.png"  />
                     
                     학력사항
                 </p>
@@ -28,7 +28,7 @@
 
             <div className="Intro_box_self">
                 <p>
-                    <img />
+                    <img class="mation" src="@/assets/technical.png"  />
                     기술</p>
                 <hr />
                 <p>C언어 ★★☆☆</p>
@@ -39,7 +39,7 @@
 
             <div className="Intro_box_self">
                 <p>
-                    <img />
+                    <img class="mation" src="@/assets/card.png"  />
                     자격증
                 </p>
                 <hr />
@@ -80,6 +80,9 @@
     line-height: 2.0;
     font-size: 18px;
 }
-
+.mation{
+    width: 30px;
+    height: 30px;
+}
 
 </style>

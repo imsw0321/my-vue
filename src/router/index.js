@@ -1,11 +1,14 @@
 import { createWebHistory, createRouter } from "vue-router";
 
-
 import MainComp from "../components/Show/MainComp";
 import SelfIntroComp from "../components/Show/SelfIntroComp";
 import ProjectComp from "../components/Show/ProjectComp";
 import ObjectComp from "../components/Show/ObjectComp";
 const routes = [
+    {
+        path:"/",
+        component: MainComp,
+    },
     {
         path: "/Main",
         component: MainComp,

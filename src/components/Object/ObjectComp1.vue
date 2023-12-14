@@ -2,7 +2,7 @@
     <div class="Maincontent_Object">
       <div class="Intro_box_object">
         <p>
-          <img src="@/assets/dream.png" width="40px" height="28px" alt="card" />
+          <img class="object_i" src="@/assets/dream.png"  />
           원하는 직무 및 목표
         </p>
         <hr />
@@ -21,7 +21,7 @@
           특히, 저는 소비자들의 모든 집합체이자, 한국을 대표하는 백화점인 신세계 백화점에서 고객 소비자 및 영업, 마케팅에 분석하여 제공하고 싶습니다.
           저는 앞으로 큰 대기업인 신세계에 들어가기 위해 데이터에 대해 많이 공부해보고자 합니다.
         </p>
-        <img src="@/assets/shinsegae.png" width="600px" height="200px" alt="sqld" />
+        <img class="object_ii" src="@/assets/shinsegae.png"  />
         <br />
       </div>
     </div>
@@ -94,6 +94,13 @@
     font-size: 16px;
     color: #6f6f6f; /* 체크 마크 색상 지정 */
   }
-  
+  .object_i{
+    width:40px; 
+    height:28px;
+  }
+  .object_ii{
+    width:600px; 
+    height:200px; 
+  }
   </style>
   

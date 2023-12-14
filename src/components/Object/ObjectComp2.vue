@@ -2,7 +2,7 @@
     <div class="Maincontent_Object">
       <div class="Intro_box_object">
         <p>
-          <img src="@/assets/dream.png" width="40px" height="28px" alt="card" />
+          <img class="object_i" src="@/assets/dream.png"  />
           데이터분석가 이루기 위한 목표
         </p>
         <hr />
@@ -37,14 +37,14 @@
           </li>
         </ul>
         <br />
-        <img src="@/assets/object_image.png" width="800px" height="300px" alt="sqld" />
+        <img class="object_ii" src="@/assets/object_image.png"  />        
       </div>
     </div>
   </template>
   
   <script>
   export default {
-    // Your component options here
+
   };
   </script>
   
@@ -109,6 +109,13 @@
     font-size: 16px;
     color: #6f6f6f; /* 체크 마크 색상 지정 */
   }
-  
+  .object_i{
+    width:40px; 
+    height:28px;
+  }
+  .object_ii{
+    width:800px; 
+    height:300px;
+  }
   </style>
   

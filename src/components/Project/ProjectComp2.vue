@@ -5,7 +5,7 @@
       <div class="Project_box" @click="openModal">
         <img src="@/assets/image_project2_main2.png" width="800px" height="500px" alt="sw" />
       </div>
-      <ModalComp :isOpen="isOpen" @onClose="closeModal">
+      <ModalComp :isOpen="isOpen" @close="closeModal">
         <div class="Project_contents">
           <h2>POST-LIT</h2>
           <p>
@@ -16,7 +16,8 @@
           </p>
   
           <div class="Project_image_photo">
-            <img src="@/assets/image_project2_web1.png" width="1000px" height="400px" alt="logo" />
+            <img class="project_II" src="@/assets/image_project2_web1.png"  />
+     
           </div>
         </div>
       </ModalComp>
@@ -46,7 +47,7 @@
   };
   </script>
   
-  <style>
+  <style scoped>
  .Project_guide{
   font-size: 15px;
   text-align: center;
@@ -127,6 +128,10 @@
 .Project_contents{
   font-size: 20px;
 }
+.project_II{
 
+  width:1000px; 
+  height:400px; 
+}
   </style>
   

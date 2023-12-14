@@ -5,7 +5,7 @@
       <div class="Project_box" @click="openModal">
         <img src="@/assets/image_project1_main11.png" width="800px" height="500px" alt="sw" />
       </div>
-      <ModalComp :isOpen="isOpen" @onClose="closeModal">
+      <ModalComp :isOpen="isOpen" @close="closeModal">
         <div class="Project_contents">
           <h2>유기 동물 정보 사이트</h2>
           <p>
@@ -15,11 +15,11 @@
             저는 이에 따라 유기동물 정보, 입양 및 임보 절차, 애견 용품, 유기동물 보호단체의 정보를 제공하는 유기 동물 정보 사이트를 프로젝트로 진행하였습니다.
           </p>
           <div>
-            <img src="@/assets/github.png" width="40px" height="40px" alt="github" @click="openWindow('https://imsw0321.github.io/')" style="cursor: pointer;" />
+            <img class="project_I" src="@/assets/github.png" alt="github" @click="openWindow('https://imsw0321.github.io/')" style="cursor: pointer;" />
           </div>
           <div class="Project_image_photo">
-            <img src="@/assets/image_project1_web1.png" width="500px" height="400px" alt="logo" />
-            <img src="@/assets/image_project1_web2.png" width="500px" height="400px" alt="logo" />
+            <img class="project_II" src="@/assets/image_project1_web1.png"  />
+            <img class="project_II" src="@/assets/image_project1_web2.png">
           </div>
         </div>
       </ModalComp>
@@ -27,7 +27,7 @@
   </template>
   
   <script>
-  import ModalComp from './ModalComp.vue';
+  import ModalComp from './ModalComp.vue'; 
   
   export default {
     components: {
@@ -133,6 +133,13 @@
 .Project_contents{
   font-size: 20px;
 }
-
+.project_II{
+    width: 500px;
+    height: 400px;
+}
+.project_I{
+  width:40px; 
+  height:40px;
+}
   </style>
   

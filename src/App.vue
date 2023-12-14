@@ -8,6 +8,7 @@
   <div>
   <nav class="Navbar">
     <ul>
+    <li><router-link to="/"  class="menulink"></router-link></li>
     <li><router-link to="/Main"  class="menulink">Main</router-link></li>
     <li><router-link to="/SelfIntro"  class="menulink">Introduce</router-link></li>
     <li><router-link to="/Project"  class="menulink">Project</router-link></li>
