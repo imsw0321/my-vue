@@ -4,6 +4,7 @@ import MainComp from "../components/Show/MainComp";
 import SelfIntroComp from "../components/Show/SelfIntroComp";
 import ProjectComp from "../components/Show/ProjectComp";
 import ObjectComp from "../components/Show/ObjectComp";
+
 const routes = [
     {
         path:"/",
@@ -25,10 +26,12 @@ const routes = [
         path: "/Object",
         component: ObjectComp,
     },
+    
 ];
 
+
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory('/my-vue/'), 
     routes,
 });
 export default router;
