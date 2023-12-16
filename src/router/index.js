@@ -31,7 +31,7 @@ const routes = [
 
 
 const router = createRouter({
-    history: createWebHistory('/my-vue/'), 
+    history: createWebHistory(process.env.BASE_URL),
     routes,
 });
 export default router;

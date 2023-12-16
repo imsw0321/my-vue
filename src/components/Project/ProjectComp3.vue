@@ -1,25 +1,25 @@
 <template>
     <div class="Project">
-      <div class="Project_name">Project1</div>
+      <div class="Project_name">Project3</div>
       <div class="Project_guide">아래를 눌러주세요.</div>
       <div class="Project_box" @click="openModal">
-        <img src="@/assets/image_project1_main11.png" width="800px" height="500px" alt="sw" />
+        <img src="@/assets/image_project3_main.png" width="800px" height="500px" alt="sw" />
       </div>
       <ModalComp :isOpen="isOpen" @close="closeModal">
         <div class="Project_contents">
-          <h2>유기 동물 정보 사이트</h2>
+          <h2>개인 포트폴리오</h2>
           <p>
-            이 프로젝트는 웹프로그래밍 과제로 만들었던 프로젝트입니다.
-            해당 프로젝트는 HTML, CSS, Javascript를 활용하였습니다.
-            저는 최근 유기견, 유기묘, 유기동물에 대한 사회적 문제가 심각해지면서, 이를 상기시킬 수 있는 프로젝트를 만들고 싶었습니다.
-            저는 이에 따라 유기동물 정보, 입양 및 임보 절차, 애견 용품, 유기동물 보호단체의 정보를 제공하는 유기 동물 정보 사이트를 프로젝트로 진행하였습니다.
+            이 프로젝트는 고급웹프로그래밍 과제로 만들었던 프로젝트입니다.
+            해당 프로젝트는 React를 활용하였습니다.
+            2023년 2학기 개인 포트폴리오를 만들었습니다. 해당 프로젝트는 내가 앞으로 가고자 하는 진로의 방향 및 지금까지 진행했던 프로젝트에 대해 소개하는
+            개인 포트폴리오입니다. 해당 포트폴리오를 통해 내가 대학생활동안 진행했던 모든 것들을 담을 수 있었던 좋은 프로젝트였습니다.
           </p>
           <div>
-            <img class="project_I" src="@/assets/github.png" alt="github" @click="openWindow('https://imsw0321.github.io/')" style="cursor: pointer;" />
+            <img class="project_I" src="@/assets/github.png" alt="github" @click="openWindow('https://imsw0321.github.io/Myproject/')" style="cursor: pointer;" />
           </div>
           <div class="Project_image_photo">
-            <img class="project_II" src="@/assets/image_project1_web1.png"  />
-            <img class="project_II" src="@/assets/image_project1_web2.png">
+            <img class="project_II" src="@/assets/image_project3_web1.png"  />
+            <img class="project_II" src="@/assets/image_project3_web2.png">
           </div>
         </div>
       </ModalComp>
@@ -127,7 +127,7 @@
   cursor: pointer;
 }
 .Project_box:hover img {
-  transform: scale(1.05); /* hover 시 이미지를 조금 크게 확대 */
+  transform: scale(1.05); 
 }
 
 .Project_contents{

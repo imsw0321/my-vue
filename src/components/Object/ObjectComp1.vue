@@ -29,7 +29,7 @@
   
   <script>
   export default {
-    // Your component options here
+
   };
   </script>
   
@@ -40,7 +40,6 @@
   flex-direction: row;
   justify-content: center; /* 가운데 정렬 추가 */
 }
-
 .Intro_box_object {
   width: 1000px;
   background-color: #fff;
@@ -56,44 +55,6 @@
   line-height: 2.0;
   font-size: 18px;
 }
-.Checklist li {
-    list-style: none; 
-}
-.Checklist li {
-    list-style: none;
-    margin-bottom: 10px; /* 각 항목 사이 간격 조절 */
-  }
-  
-  .Checklist li input[type="checkbox"] {
-    display: none;
-  }
-  
-  .Checklist li label {
-    display: block;
-    padding-left: 25px;
-    position: relative;
-    cursor: pointer;
-  }
-  
-  .Checklist li label:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 20px;
-    height: 20px;
-    border: 1px solid #6f6f6f; /* 체크박스 테두리 스타일 지정 */
-    background-color: #fff;
-  }
-  
-  .Checklist li input[type="checkbox"]:checked + label:before {
-    content: '✔';
-    text-align: center;
-    line-height: 20px;
-    font-size: 16px;
-    color: #6f6f6f; /* 체크 마크 색상 지정 */
-  }
   .object_i{
     width:40px; 
     height:28px;

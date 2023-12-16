@@ -5,7 +5,7 @@
       <button class="SelfIntroButton" @click="showSelfIntro2">자기소개서</button>
     </div>
     <div v-if="selectedContent" class="SelectedContent">
-      <!-- 변경된 부분: 컴포넌트 직접 렌더링 -->
+      
       <component :is="selectedContent" />
     </div>
   </div>

@@ -64,7 +64,6 @@
 }
 
 .Intro_box_self {
-   /* background-image: url('../../Component/background_image_url.png');*/
     padding: 20px;
     margin-right: 15px; 
     border-radius: 8px;

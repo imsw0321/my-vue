@@ -13,9 +13,9 @@
                     이처럼 전 저의 미래 발전과 경쟁력 있는 사람이 되기 위해서는 데이터에 대해 배워야한다는 것을 느꼈고,
                     데이터에 대해 배우기 위해 컴퓨터공학과 복수전공을 선택했습니다.</p>
                 <br />
-                <div className="data_image">
-                    <img />
-                    <img />
+                <div>
+                    <img class="self" src="@/assets/image_data1.png"  />
+                    <img class="self" src="@/assets/image_data2.png"  />
                 </div>
 
             </div>
@@ -36,7 +36,6 @@
 }
 
 .Intro_box_self {
-    /*background-image: url('../../Component/background_image_url.png'); */
     padding: 20px;
     margin-right: 15px; 
     border-radius: 8px;
@@ -52,6 +51,9 @@
     line-height: 2.0;
     font-size: 18px;
 }
-
+.self{
+    width:400px;
+    height:300px;
+}
 
 </style>
