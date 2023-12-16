@@ -45,7 +45,6 @@ export default {
 }
 
 .Intro_box_self {
-    /*background-image: url('../../Component/background_image_url.png');*/
     padding: 20px;
     margin-right: 15px; 
     border-radius: 8px;
@@ -61,6 +60,7 @@ export default {
     line-height: 2.0;
     font-size: 18px;
 }
+
 .SefIntro_Subvar {
     text-align: center;
 }

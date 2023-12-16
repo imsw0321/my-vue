@@ -21,6 +21,7 @@ export default {
 </script>
   
 <style>
+
 .Maincontent_Object {
   padding: 5% 10% 5% 10%;
   display: flex;
