@@ -1,7 +1,6 @@
 <template>
  <div className="Maincontent_SelfIntro">
             <div className="Intro_box_object">
-
                 <p>자기소개서</p>
                 <hr />
                 <p> 안녕하세요. 데이터로 기업의 그림을 그리고 싶은 데이터분석가 유망주 김선우입니다.</p>
